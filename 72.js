@@ -8,7 +8,7 @@ function rangeOfNumbers(startNum, endNum) {
       console.log(countArray);
       return countArray;
     }
-  } else  {
+  }  else  {
     return ["startNum"];
   }
   };
