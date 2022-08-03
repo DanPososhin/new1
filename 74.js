@@ -3,13 +3,11 @@
 //  Например, length(['a', 'b', 'c', 'd']) должна возвращать 4. Напишите, что происходит на каждом шаге.
 
 
-function length() {
-    let n = 0;
-    let i = 0;
-    if (lenght[i] === undefined) {
+function length(arr){
+    if (arr[0] === undefined) {
         return 0;
     } else {
-      
+        return arr.shift
     }
 }
 
