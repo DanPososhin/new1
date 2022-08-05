@@ -7,7 +7,7 @@ const length = function (x) {
     return 0;
   } else {
     let i = 0;
-    for (i = 0; x[0] === undefined; n++) {
+    for (i = 0; x[0] !== undefined; i++) {
       x.shift();
       i++;
     }
@@ -16,3 +16,10 @@ const length = function (x) {
 };
 
 console.log(length(["a", "b", "c", "d"]));
+
+const length = function (x) {
+    for (let i = 0; true ; i++){        
+       if(x[0] === undefined) return i;
+       x.shift(); 
+    }
+};
