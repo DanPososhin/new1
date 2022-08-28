@@ -8,6 +8,6 @@ function countdown(n) {
     return countArray ;
   }
   return;
-  в  2ке
+  в   
 }
 //   Only change code above this line
